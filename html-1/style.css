@@ -1,0 +1,82 @@
+/*
+* {
+    border: 1px solid red;
+}
+*/
+
+/*
+h1 {
+    color: aqua;
+    text-shadow: 1px;
+    font-size: large;
+    background-color: black;    
+}
+*/
+
+p {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+strong {
+    margin: 50px;
+    background-color: aquamarine;
+}
+
+.button {
+    border: 1px solid black;
+    /* padding: 10px; */
+    width: 700px;
+    text-align: center;
+    background-color: blanchedalmond;
+    margin: auto;
+}
+
+
+.button .caption {
+    background-color: blueviolet;
+    border: 20px solid blueviolet;
+    border-radius: 30px;
+}
+
+.button .caption:hover {
+    background-color: brown;
+    border-color: brown;
+}
+
+.float-button {
+    margin: auto;
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px grey;
+    transition: 0.2s ease-in-out;
+}
+
+.float-button:hover {
+    box-shadow: 15px 15px 15px grey;
+    transform: translate(-5px, -5px);    
+}
+
+.float-button span {
+    padding: 10px;
+}
+
+* {
+    /* border: 1px solid red; */
+}
+.big {
+    vertical-align: center;
+    font-size: 30px;
+}
+
+.small {
+    vertical-align: text-top;
+    font-size: 10px;
+    line-height: 30px;
+}
